@@ -25,7 +25,7 @@ This project provides a complete backend API built with Python and FastAPI that 
 
 - A Contentstack account with a Stack API Key, Delivery Token, and Environment name.
 
-- An OpenAI API Key (for creating embeddings).
+- A gemini API Key (for creating embeddings).
 
 - A Groq API Key (for fast LLM responses).
 
@@ -57,7 +57,7 @@ source venv/bin/activate
 
 <pre>cp .env.example .env</pre>
 
-- Now, open the `.env` file and add your actual API keys from OpenAI and Groq.
+- Now, open the `.env` file and add your actual API keys from Gemini and Groq.
 
 6. **Run the API Server**
 - You can run the application directly from your terminal.
